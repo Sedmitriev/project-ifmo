@@ -1,0 +1,141 @@
+{
+    "urls": {
+        "main": {
+            "path": "/",
+            "controller": "Sedmit\\Ronda\\Controllers\\IndexController::indexAction",
+            "method": "GET"
+        },
+        "about": {
+            "path": "/about",
+            "controller": "Sedmit\\Ronda\\Controllers\\IndexController::aboutAction",
+            "method": "GET"
+        },
+        "service": {
+            "path": "/services",
+            "controller": "Sedmit\\Ronda\\Controllers\\IndexController::servicesAction",
+            "method": "GET"
+        },
+        "auth": {
+            "path": "/login",
+            "controller": "Sedmit\\Ronda\\Controllers\\LoginController::indexAction",
+            "method": "GET"
+        },
+        "registration": {
+            "path": "/registration",
+            "controller": "Sedmit\\Ronda\\Controllers\\LoginController::regAction",
+            "method": "GET"
+        },
+        "login": {
+            "path": "/login",
+            "controller": "Sedmit\\Ronda\\Controllers\\LoginController::loginAction",
+            "method": "POST"
+        },
+        "logout": {
+            "path": "/logout",
+            "controller": "Sedmit\\Ronda\\Controllers\\LoginController::logoutAction",
+            "method": "GET"
+        },
+        "add user": {
+            "path": "/registration",
+            "controller": "Sedmit\\Ronda\\Controllers\\LoginController::addUserAction",
+            "method": "POST"
+        },
+        "show medcards": {
+            "path": "/medcard/index",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::indexAction",
+            "method": "GET"
+        },
+        "show medcards on page": {
+            "path": "/medcard/index/page-{page:\\d+}",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::indexAction",
+            "method": "GET"
+        },
+        "new medcard": {
+            "path": "/medcard/new",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::newAction",
+            "method": "GET"
+        },
+        "add new medcard": {
+            "path": "/medcard/new",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::addAction",
+            "method": "POST"
+        },
+        "show medcard": {
+            "path": "/medcard/show",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::showAction",
+            "method": "POST"
+        },
+        "delete medcard": {
+            "path": "/medcard/delete",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::deleteAction",
+            "method": "POST"
+        },
+        "update medcard": {
+            "path": "/medcard/update/{id:\\d+}",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::updateAction",
+            "method": "POST"
+        },
+        "search medcard": {
+            "path": "/medcard/search",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::searchAction",
+            "method": "POST"
+        },
+        "template medcard": {
+            "path": "/medcard/template/{filename:[a-z]+}",
+            "controller": "Sedmit\\Ronda\\Controllers\\MedcardController::templateAction",
+            "method": "GET"
+        },
+        "open calendar": {
+            "path": "/visit/calendar",
+            "controller": "Sedmit\\Ronda\\Controllers\\VisitController::indexAction",
+            "method": "GET"
+        },
+        "show visit": {
+            "path": "/visit/set",
+            "controller": "Sedmit\\Ronda\\Controllers\\VisitController::setAction",
+            "method": "POST"
+        },
+        "add visit": {
+            "path": "/visit/add",
+            "controller": "Sedmit\\Ronda\\Controllers\\VisitController::addAction",
+            "method": "POST"
+        },
+        "visit add new medcard": {
+            "path": "/visit/addNewCard",
+            "controller": "Sedmit\\Ronda\\Controllers\\VisitController::addNewcardAction",
+            "method": "POST"
+        },
+        "delete visit": {
+            "path": "/visit/delete",
+            "controller": "Sedmit\\Ronda\\Controllers\\VisitController::deleteAction",
+            "method": "POST"
+        },
+        "update visit": {
+            "path": "/visit/update",
+            "controller": "Sedmit\\Ronda\\Controllers\\VisitController::updateAction",
+            "method": "POST"
+        },
+        "show services": {
+            "path": "/services/{id:\\d+}",
+            "controller": "Sedmit\\Ronda\\Controllers\\ServiceController::indexAction",
+            "method": "GET"
+        },
+        "add visit from services page": {
+            "path": "/visit/addFromServices",
+            "controller": "Sedmit\\Ronda\\Controllers\\VisitController::addFromServicesAction",
+            "method": "POST"
+        },
+        "atol kkt page": {
+            "path": "/kassa/index",
+            "controller": "Sedmit\\Ronda\\Controllers\\KassaController::indexAction",
+            "method": "GET"
+        }
+    },
+    "db": {
+        "server": "127.0.0.1",
+        "dbname": "baxegjrr_medcard",
+        "user": "baxegjrr_user",
+        "pass": "E%ul7h3a",
+        "charset": "utf8"
+      }
+}
