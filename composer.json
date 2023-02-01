@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "nikic/fast-route": "^2.0@dev",
-        "dompdf/dompdf": "^0.8.3",
+        "dompdf/dompdf": "^2.0.2",
         "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
